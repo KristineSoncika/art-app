@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+
+* {
+    /*background-color: #999999;*/
+    font-family: "Titillium Web", sans-serif;;
+}
+
+.img-card {
+    width: 30%;
+    border: solid 1px #d9d8d8;
+    padding: 20px;
+    margin: 10px;
+    transition: scale 0.5s;
+    cursor: pointer;
+}
+
+.img-card:hover {
+    scale: 1.02;
+}
+
+.img-card h4 {
+    margin-top: 15px;
+}
+
+.img-card p {
+    color: #666666;
+}
+
+img {
+     width: 100%;
+}

@@ -1,0 +1,16 @@
+
+<%= render "search_form" %>
+<div class="d-flex flex-wrap justify-content-center">
+  <% @artworks.each do |work| %>
+    <div class="d-flex img-card">
+      <div>
+        <img class="img" src="<%=  work.image_url%>">
+        <h4><%= work.title%></h4>
+        <p><%= work.artist_title %></p>
+      </div>
+    </div>
+  <% end %>
+</div>
+<div class="my-5">
+  <%= paginate @artworks %>
+</div>

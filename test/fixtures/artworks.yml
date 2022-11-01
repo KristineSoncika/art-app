@@ -1,0 +1,47 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  artwork_id: MyString
+  title: MyString
+  has_not_been_viewed_much: MyString
+  date_start: MyString
+  date_end: MyString
+  artist_display: MyString
+  place_of_origin: MyString
+  dimensions: MyString
+  medium_display: MyString
+  fiscal_year: MyString
+  is_public_domain: MyString
+  colorfulness: MyString
+  latitude: MyString
+  longitude: MyString
+  gallery_title: MyString
+  is_on_view: MyString
+  artwork_type_title: MyString
+  department_title: MyString
+  artist_title: MyString
+  style_title: MyString
+  image_id: MyString
+
+two:
+  artwork_id: MyString
+  title: MyString
+  has_not_been_viewed_much: MyString
+  date_start: MyString
+  date_end: MyString
+  artist_display: MyString
+  place_of_origin: MyString
+  dimensions: MyString
+  medium_display: MyString
+  fiscal_year: MyString
+  is_public_domain: MyString
+  colorfulness: MyString
+  latitude: MyString
+  longitude: MyString
+  gallery_title: MyString
+  is_on_view: MyString
+  artwork_type_title: MyString
+  department_title: MyString
+  artist_title: MyString
+  style_title: MyString
+  image_id: MyString
